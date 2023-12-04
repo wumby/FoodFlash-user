@@ -5,17 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.17</version>
+		<version>2.7.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jack</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.codedecode</groupId>
+	<artifactId>userinfo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>UserInfo</name>
-	<description>Demo project for Spring Boot User Microservice</description>
+	<name>UserInformation</name>
+	<description>Demo project for Spring Boot User Details MS</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.8</spring-cloud.version>
+		<spring-cloud.version>2021.0.7</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -69,14 +69,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

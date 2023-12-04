@@ -1,10 +1,10 @@
-package com.jack.user;
+package com.codedecode.userinfo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserInfoApplicationTests {
+class UserInformationApplicationTests {
 
 	@Test
 	void contextLoads() {

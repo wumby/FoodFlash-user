@@ -1,6 +1,6 @@
-package com.jack.user.repo;
+package com.codedecode.userinfo.repo;
 
-import com.jack.user.entity.User;
+import com.codedecode.userinfo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

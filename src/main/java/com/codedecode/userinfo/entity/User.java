@@ -1,4 +1,4 @@
-package com.jack.user.entity;
+package com.codedecode.userinfo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,8 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Data
 @Entity
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
@@ -22,4 +22,5 @@ public class User {
     private String userPassword;
     private String address;
     private String city;
+
 }
